@@ -1,0 +1,47 @@
+# Rust
+target/
+Cargo.lock
+
+# C++
+build/
+*.o
+*.a
+*.so
+*.out
+CMakeCache.txt
+CMakeFiles/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Android / AOSP
+out/
+*.apk
+*.aab
+local.properties
+
+# ML Models
+*.onnx
+*.tflite
+*.pt
+*.pth
+*.engine
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — NEVER commit keys
+*.pem
+*.key
+*.p12
+secrets/
+.env
